@@ -39,7 +39,7 @@ jobs:
       env:
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
-        REMOTE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        REMOTE_KEY: ${{ secrets.REMOTE_KEY }}
         REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
         LOCAL_DIR: "_build/html/"
       run: |
