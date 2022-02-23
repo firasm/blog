@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: home
+parts:
+  - caption: Teaching & Learning
+    chapters:
+    - file: content/teaching/page1
+    - file: content/teaching/page2
+  - caption: Equity, Diversity, Inclusion 
+    chapters:
+    - file: content/edi/page1
+    - file: content/edi/page2
+  - caption: Miscellaneous
+    chapters:
+    - file: content/misc/page1
+    - file: content/misc/page2
+  - caption: Workflows
+    chapters:
+    - file: content/workflows/page1
+    - file: content/workflows/page2
